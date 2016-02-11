@@ -1,0 +1,51 @@
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.page-header{
+    text-align: center;
+    font-family: Verdana;
+    color: #444444;
+    margin-top: 80px;
+}
+
+.col-md-4{
+    text-align: center;
+    font-family: Georgia;
+}
+
+.normal{
+    font-family: Arial;
+    font-size: large;
+}
+
+
+
+.row-contact{
+    margin-top: 80px;
+}
+.footer {
+    padding-right: 0;
+    padding-left: 0;
+}
+
